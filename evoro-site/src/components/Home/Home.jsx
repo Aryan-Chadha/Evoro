@@ -123,7 +123,7 @@ export default function Home() {
                 </p>
                 <a
                     href="mailto:evorostudios@gmail.com"
-                    className="relative inline-block group"
+                    className="relative inline-block group w-fit"
                 >
                     <span className="bg-left-bottom bg-gradient-to-r from-purple-600 to-pink-600 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
                         evorostudios@gmail.com
@@ -226,7 +226,7 @@ export default function Home() {
                             // Desktop: Previous alternating row layout
                             <div
                                 key={box.id}
-                                className={`flex flex-col md:flex-row gap-4 h-40 md:h-60 relative cursor-pointer`}
+                                className={`flex flex-col md:flex-row gap-4 h-40 md:h-60 relative cursor-pointer transform-gpu`}
                                 onMouseEnter={() => setHoverRow(box.id)}
                                 onMouseLeave={() => setHoverRow(null)}
                                 onClick={() => setActiveBox(box.id)}
@@ -270,7 +270,7 @@ export default function Home() {
                                                         initial={{ backgroundSize: "0% 100%" }}
                                                         whileHover={{ backgroundSize: "100% 100%" }}
                                                         transition={{ duration: 0.6 }}
-                                                        className="relative text-gray-200 text-7xl md:text-9xl font-extrabold z-10 bg-clip-text  bg-gradient-to-r from-white to-gray-400"
+                                                        className={`relative text-gray-200 text-7xl md:text-9xl font-extrabold z-10 bg-clip-text  bg-gradient-to-r from-white to-gray-400 ${hoverRow === box.id ? "scale-[2.0]" : "scale-[1.0]"} transition-transform duration-300 transform-gpu ease-in`}
                                                         style={{ backgroundRepeat: "no-repeat" }}
                                                     >
                                                         {box.id.toString().padStart(2, "0")}
