@@ -82,7 +82,7 @@ export default function Home() {
                 {/* Logo + Studio name */}
                 <div className="flex items-center gap-3 mb-4">
                     <div className="w-10 h-10 shrink-0 rounded-full flex items-center justify-center text-white font-bold">
-                        <img className="rounded-full" src="/images/logo_evoro.jpg" alt="logo" />
+                        <img className="rounded-full" src="/images/logo_evoro.webp" alt="logo" />
                     </div>
                     <span className="text-xl font-semibold font-['Chillax', sans-serif] tracking-wide cursor-default">
                         Evoro.Stud
