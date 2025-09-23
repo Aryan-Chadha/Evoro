@@ -27,7 +27,7 @@ export default function Home() {
             id: 3,
             title: "About",
             content:
-                "We’re a creative studio from Bengaluru, seeking to provide imaginative digital answers to your needs.",
+                "We’re a creative studio for you, seeking to provide imaginative digital answers to your needs.",
             image: "/images/pic_3.webp",
             color: "bg-green-600",
         },
@@ -115,7 +115,7 @@ export default function Home() {
                     &nbsp;&nbsp;&nbsp;Smart Design. Lasting Impressions.
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                    Website design studio from Bengaluru
+                    Website design studio for You
                 </h1>
                 <p className="text-gray-400">
                     We’re a creative studio seeking to provide imaginative digital answers
